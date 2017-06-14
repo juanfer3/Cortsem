@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pedido:</strong>
+  <%= @programacion.pedido %>
+</p>
+
+<p>
+  <strong>F entrega:</strong>
+  <%= @programacion.f_entrega %>
+</p>
+
+<p>
+  <strong>Prenda:</strong>
+  <%= @programacion.prenda %>
+</p>
+
+<p>
+  <strong>Pieza:</strong>
+  <%= @programacion.pieza %>
+</p>
+
+<p>
+  <strong>Talla:</strong>
+  <%= @programacion.talla %>
+</p>
+
+<p>
+  <strong>Telas:</strong>
+  <%= @programacion.telas %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @programacion.cantidad %>
+</p>
+
+<%= link_to 'Edit', edit_programacion_path(@programacion) %> |
+<%= link_to 'Back', programaciones_path %>

@@ -1,0 +1,19 @@
+<%= simple_form_for(@empleado) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :nombre %>
+    <%= f.input :tipo_documento %>
+    <%= f.input :documento %>
+    <%= f.input :rol %>
+    <%= f.input :telefono %>
+    <%= f.input :celular %>
+    <%= f.input :direccion %>
+    <%= f.input :ciudad %>
+    <%= f.association :user %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

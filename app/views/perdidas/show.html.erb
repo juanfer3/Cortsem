@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @perdida.descripcion %>
+</p>
+
+<p>
+  <strong>Tipo unidad:</strong>
+  <%= @perdida.tipo_unidad %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @perdida.cantidad %>
+</p>
+
+<p>
+  <strong>Val unit:</strong>
+  <%= @perdida.val_unit %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @perdida.total %>
+</p>
+
+<%= link_to 'Edit', edit_perdida_path(@perdida) %> |
+<%= link_to 'Back', perdidas_path %>

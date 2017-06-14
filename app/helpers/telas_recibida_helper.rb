@@ -1,0 +1,2 @@
+module TelasRecibidaHelper
+end

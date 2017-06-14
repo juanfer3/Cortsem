@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pedido: one
+  prenda: MyString
+  pieza: MyString
+  talla: MyString
+  tela: one
+  cantidad: 1.5
+  val_unit: 1.5
+  total: 1.5
+
+two:
+  pedido: two
+  prenda: MyString
+  pieza: MyString
+  talla: MyString
+  tela: two
+  cantidad: 1.5
+  val_unit: 1.5
+  total: 1.5

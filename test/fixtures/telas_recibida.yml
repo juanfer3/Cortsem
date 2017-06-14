@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descripcion: MyString
+  tipo_unidad: MyString
+  cantidad_recibida: 1.5
+  val_unit: 1.5
+  cantidad_devuelta: 1.5
+  total: 1.5
+
+two:
+  descripcion: MyString
+  tipo_unidad: MyString
+  cantidad_recibida: 1.5
+  val_unit: 1.5
+  cantidad_devuelta: 1.5
+  total: 1.5

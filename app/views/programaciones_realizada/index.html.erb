@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Programaciones Realizada</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Programacion</th>
+      <th>Fecha</th>
+      <th>Prenda</th>
+      <th>Pieza</th>
+      <th>Talla</th>
+      <th>Telas</th>
+      <th>Cantidad</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @programaciones_realizada.each do |programacion_realizada| %>
+      <tr>
+        <td><%= programacion_realizada.programacion %></td>
+        <td><%= programacion_realizada.fecha %></td>
+        <td><%= programacion_realizada.prenda %></td>
+        <td><%= programacion_realizada.pieza %></td>
+        <td><%= programacion_realizada.talla %></td>
+        <td><%= programacion_realizada.telas %></td>
+        <td><%= programacion_realizada.cantidad %></td>
+        <td><%= link_to 'Show', programacion_realizada %></td>
+        <td><%= link_to 'Edit', edit_programacion_realizada_path(programacion_realizada) %></td>
+        <td><%= link_to 'Destroy', programacion_realizada, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Programacion Realizada', new_programacion_realizada_path %>

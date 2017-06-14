@@ -1,0 +1,14 @@
+<%= simple_form_for(@pedido) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :f_registro %>
+    <%= f.input :f_entrega %>
+    <%= f.association :cliente %>
+    <%= f.association :empleado %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

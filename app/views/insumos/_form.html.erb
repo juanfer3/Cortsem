@@ -1,0 +1,15 @@
+<%= simple_form_for(@insumo) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :nombre %>
+    <%= f.input :tipo_unidad %>
+    <%= f.input :cantidad %>
+    <%= f.input :valor_unit %>
+    <%= f.input :total %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

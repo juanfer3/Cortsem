@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  tipo_unidad: MyString
+  cantidad: 1.5
+  valor_unit: 1.5
+  total: 1.5
+
+two:
+  nombre: MyString
+  tipo_unidad: MyString
+  cantidad: 1.5
+  valor_unit: 1.5
+  total: 1.5

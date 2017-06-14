@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pedido:</strong>
+  <%= @pedido_detallado.pedido %>
+</p>
+
+<p>
+  <strong>Prenda:</strong>
+  <%= @pedido_detallado.prenda %>
+</p>
+
+<p>
+  <strong>Pieza:</strong>
+  <%= @pedido_detallado.pieza %>
+</p>
+
+<p>
+  <strong>Talla:</strong>
+  <%= @pedido_detallado.talla %>
+</p>
+
+<p>
+  <strong>Tela:</strong>
+  <%= @pedido_detallado.tela %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @pedido_detallado.cantidad %>
+</p>
+
+<p>
+  <strong>Val unit:</strong>
+  <%= @pedido_detallado.val_unit %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @pedido_detallado.total %>
+</p>
+
+<%= link_to 'Edit', edit_pedido_detallado_path(@pedido_detallado) %> |
+<%= link_to 'Back', pedidos_detallado_path %>

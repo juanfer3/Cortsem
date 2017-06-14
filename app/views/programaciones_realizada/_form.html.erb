@@ -1,0 +1,17 @@
+<%= simple_form_for(@programacion_realizada) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :programacion %>
+    <%= f.input :fecha %>
+    <%= f.input :prenda %>
+    <%= f.input :pieza %>
+    <%= f.input :talla %>
+    <%= f.association :telas %>
+    <%= f.input :cantidad %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

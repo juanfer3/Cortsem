@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Programacion:</strong>
+  <%= @programacion_realizada.programacion %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @programacion_realizada.fecha %>
+</p>
+
+<p>
+  <strong>Prenda:</strong>
+  <%= @programacion_realizada.prenda %>
+</p>
+
+<p>
+  <strong>Pieza:</strong>
+  <%= @programacion_realizada.pieza %>
+</p>
+
+<p>
+  <strong>Talla:</strong>
+  <%= @programacion_realizada.talla %>
+</p>
+
+<p>
+  <strong>Telas:</strong>
+  <%= @programacion_realizada.telas %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @programacion_realizada.cantidad %>
+</p>
+
+<%= link_to 'Edit', edit_programacion_realizada_path(@programacion_realizada) %> |
+<%= link_to 'Back', programaciones_realizada_path %>

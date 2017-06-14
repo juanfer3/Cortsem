@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Telas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo tela</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @telas.each do |tela| %>
+      <tr>
+        <td><%= tela.tipo_tela %></td>
+        <td><%= link_to 'Show', tela %></td>
+        <td><%= link_to 'Edit', edit_tela_path(tela) %></td>
+        <td><%= link_to 'Destroy', tela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tela', new_tela_path %>

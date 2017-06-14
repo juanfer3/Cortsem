@@ -1,0 +1,18 @@
+<%= simple_form_for(@pedido_detallado) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :pedido %>
+    <%= f.input :prenda %>
+    <%= f.input :pieza %>
+    <%= f.input :talla %>
+    <%= f.association :tela %>
+    <%= f.input :cantidad %>
+    <%= f.input :val_unit %>
+    <%= f.input :total %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

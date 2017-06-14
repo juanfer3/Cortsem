@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  resources :perdidas
+  resources :telas_recibida
+  resources :insumos
+  resources :programaciones_realizada
+  resources :programaciones
+  resources :pedidos_detallado
+  resources :telas
+  resources :pedidos
+  resources :clientes
+  resources :empleados
   get 'static_pages/home'
 
   get 'static_pages/help'

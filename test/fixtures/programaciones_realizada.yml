@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  programacion: one
+  fecha: MyString
+  prenda: MyString
+  pieza: MyString
+  talla: MyString
+  telas: one
+  cantidad: 1.5
+
+two:
+  programacion: two
+  fecha: MyString
+  prenda: MyString
+  pieza: MyString
+  talla: MyString
+  telas: two
+  cantidad: 1.5

@@ -1,0 +1,2 @@
+class Tela < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class TelaRecibida < ApplicationRecord
+end

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @tela_recibida.descripcion %>
+</p>
+
+<p>
+  <strong>Tipo unidad:</strong>
+  <%= @tela_recibida.tipo_unidad %>
+</p>
+
+<p>
+  <strong>Cantidad recibida:</strong>
+  <%= @tela_recibida.cantidad_recibida %>
+</p>
+
+<p>
+  <strong>Val unit:</strong>
+  <%= @tela_recibida.val_unit %>
+</p>
+
+<p>
+  <strong>Cantidad devuelta:</strong>
+  <%= @tela_recibida.cantidad_devuelta %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @tela_recibida.total %>
+</p>
+
+<%= link_to 'Edit', edit_tela_recibida_path(@tela_recibida) %> |
+<%= link_to 'Back', telas_recibida_path %>

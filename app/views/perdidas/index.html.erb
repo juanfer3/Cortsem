@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Perdidas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Descripcion</th>
+      <th>Tipo unidad</th>
+      <th>Cantidad</th>
+      <th>Val unit</th>
+      <th>Total</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @perdidas.each do |perdida| %>
+      <tr>
+        <td><%= perdida.descripcion %></td>
+        <td><%= perdida.tipo_unidad %></td>
+        <td><%= perdida.cantidad %></td>
+        <td><%= perdida.val_unit %></td>
+        <td><%= perdida.total %></td>
+        <td><%= link_to 'Show', perdida %></td>
+        <td><%= link_to 'Edit', edit_perdida_path(perdida) %></td>
+        <td><%= link_to 'Destroy', perdida, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Perdida', new_perdida_path %>
